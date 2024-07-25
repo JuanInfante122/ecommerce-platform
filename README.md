@@ -11,6 +11,7 @@ Bienvenido a la **E-commerce API**. Esta API permite la gestión de productos y 
 - [Endpoints](#endpoints)
   - [Productos](#productos)
   - [Pedidos](#pedidos)
+- [Diagrama](#diagrama)
 - [Documentación de Swagger](#documentación-de-swagger)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
@@ -110,6 +111,12 @@ Esta API proporciona endpoints para gestionar productos y pedidos. Permite la cr
     GET /api/orders/{id}
     ```
 
+## Diagrama
+
+A continuación se muestra el diagrama de la arquitectura de la API:
+
+![Diagrama de Arquitectura](docs/diagrama.png)
+
 ## Documentación de Swagger
 
 La documentación de Swagger para la API está disponible en [http://localhost:3000/swagger](http://localhost:3000/swagger). Swagger proporciona una interfaz interactiva para explorar y probar la API.
@@ -121,4 +128,3 @@ Las contribuciones son bienvenidas. Por favor, abre un **issue** o realiza un **
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
